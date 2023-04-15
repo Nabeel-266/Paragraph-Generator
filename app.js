@@ -35,8 +35,6 @@ generateBtn.addEventListener('click', () => {
         let userWantsPara = paragraphs.slice(0, userInput);
         let userParagraph = userWantsPara.map( (para) => `<p>${para}</p>`).join('');
 
-        console.log(userParagraph);
-
         showParagraph.innerHTML = userParagraph;
         displayText.classList.add('hidden');
     }

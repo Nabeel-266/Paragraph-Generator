@@ -93,12 +93,9 @@ button:active{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    /* background-color: lightcoral; */
 }
 .displayPara::-webkit-scrollbar{
     width: 10px;
-    position: absolute;
-    left: 20px;
 }
 .displayPara::-webkit-scrollbar-track{
     background: transparent;
@@ -135,11 +132,172 @@ button:active{
 .placeholderText h3{
     font-size: 2.4rem;
     font-weight: 500;
-    text-align: center;
     text-decoration: underline;
 }
 
 
 .hidden{
     display: none;
+}
+
+
+
+/* Smartphones Mobile Small*/
+@media only screen and (max-width: 320px) {
+    .hdArea{
+        padding: 50px 0px 5px 0px;
+    }
+    .hdArea h1{
+        font-size: 2.9rem;
+    }
+    .selectArea{
+        padding: 5px 0px 40px 0px;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    span h5{
+        font-size: 1.9rem;
+        letter-spacing: 0.1px;
+    }
+    span input{
+        width: 40px;
+        font-size: 1.2rem;
+    }
+    span button{
+        font-size: 1.3rem;
+    }
+    .paraArea{
+        padding: 20px 20px 20px 20px;
+        border: 4px solid #333333;
+        border-radius: 5px;
+    }
+    .displayPara{
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .displayPara::-webkit-scrollbar{
+        width: 6px;
+    }
+    .paragraph p{
+        font-size: 1.2rem;
+        padding: 15px 12px;
+    }
+    .placeholderText{
+        padding: 8px;
+    }
+    .placeholderText h3{
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+}
+
+
+/* Smartphones Mobile Medium*/
+@media(min-width: 321px) and (max-width: 375px) {
+    .hdArea{
+        padding: 30px 0px 5px 0px;
+    }
+    .hdArea h1{
+        font-size: 3.4rem;
+    }
+    .selectArea{
+        padding: 5px 0px 40px 0px;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    span h5{
+        font-size: 2rem;
+        letter-spacing: 0.2px;
+    }
+    span input{
+        width: 50px;
+        font-size: 1.4rem;
+    }
+    span button{
+        font-size: 1.4rem;
+    }
+    .paraArea{
+        padding: 20px 20px 20px 20px;
+        border: 4px solid #333333;
+        border-radius: 5px;
+    }
+    .displayPara{
+        width: 300px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .displayPara::-webkit-scrollbar{
+        width: 8px;
+    }
+    .paragraph p{
+        font-size: 1.4rem;
+        padding: 15px 12px;
+    }
+    .placeholderText{
+        padding: 8px;
+    }
+    .placeholderText h3{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
+
+/* Smartphones Mobile Large*/
+@media(min-width: 376px) and (max-width: 500px) {
+    .hdArea{
+        padding: 30px 0px 5px 0px;
+    }
+    .hdArea h1{
+        font-size: 3.6rem;
+    }
+    .selectArea{
+        padding: 5px 0px 40px 0px;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    span h5{
+        font-size: 2.2rem;
+        letter-spacing: 0.2px;
+    }
+    span input{
+        width: 50px;
+        font-size: 1.5rem;
+    }
+    span button{
+        font-size: 1.5rem;
+    }
+    .paraArea{
+        padding: 20px 20px 20px 20px;
+        border: 4px solid #333333;
+        border-radius: 5px;
+    }
+    .displayPara{
+        width: 320px;
+        height: 320px;
+        border-radius: 5px;
+    }
+    .displayPara::-webkit-scrollbar{
+        width: 8px;
+    }
+    .paragraph p{
+        font-size: 1.4rem;
+        padding: 15px 12px;
+    }
+    .placeholderText{
+        padding: 8px;
+    }
+    .placeholderText h3{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
 }
