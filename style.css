@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600;700;800&family=Macondo&family=Poppins:wght@200;300;400;500;600;700;800&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body{
+    font-family: 'K2D', sans-serif !important;
+}
+
+#main{
+    background-color: #f8f8f8;
+}
+#subMain{
+    width: 100%;
+    height: 100%;
+}
+.hdArea{
+    padding: 30px 0px 10px 0px;
+}
+.hdArea h1{
+    font-size: 4.8rem;
+    font-weight: 600; 
+    color: #222222;
+    letter-spacing: 1px;
+}
+
+.selectArea{
+    padding: 10px 0px 60px 0px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+span h5{
+    font-size: 2.6rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+span input{
+    width: 60px;
+    border: 2px solid #333333;
+    outline: none;
+    font-size: 1.8rem;
+    padding: 0px 2px;
+    text-align: center;
+    color: #111111;
+    border-radius: 4px;
+}
+input:out-of-range{
+    color: red;
+}
+
+span input::-webkit-inner-spin-button,
+span input::-webkit-outer-spin-button{
+    display: none;
+}
+
+span button{
+    font-size: 1.6rem;
+    padding: 0px 6px;
+    border-radius: 4px;
+    border: 2px solid #555555;
+    outline: none;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    background-color: #333333;
+    color: #eeeeee;
+}
+button:active{
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.paraArea{
+    padding: 30px 20px 30px 20px;
+    background-color: #e6e6e6;
+    border: 4px solid #333333;
+    border-radius: 10px;
+}
+.displayPara{
+    width: 600px;
+    height: 320px;
+    border-radius: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: lightcoral; */
+}
+.displayPara::-webkit-scrollbar{
+    width: 10px;
+    position: absolute;
+    left: 20px;
+}
+.displayPara::-webkit-scrollbar-track{
+    background: transparent;
+}
+.displayPara::-webkit-scrollbar-thumb{
+    /* background: linear-gradient(to bottom, #303030 40%, #272727 100%); */
+    background-color: #333333;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.displayPara .paragraph{
+    background-color: #e6e6e6;
+}
+.paragraph p{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0px 0px 20px 0px;
+    padding: 20px 15px;
+    background-color: #565656;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.placeholderText{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+.placeholderText h3{
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.hidden{
+    display: none;
+}
